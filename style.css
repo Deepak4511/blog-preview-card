@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'figtree', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #FFE548;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.main{
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 30%;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid  black;
+    box-shadow: 0.5rem 0.5rem rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.post{
+    text-align: center;
+}
+
+.blog-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contain{
+    background-color: #FFE548;
+    
+}
+
+.learn{
+    text-align: left;
+    background-color: #FFE548;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 6%;
+}
+
+.time{
+    text-align: left;
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 4%;
+}
+
+.topic{
+    padding-bottom: 4%;
+}
+
+.lang{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 6%;
+}
+.cont{
+    padding-bottom: 4%;
+}
+
+.content{
+    color: grey;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.fevikon{
+    width: 10%;
+}
+
+.author p{
+    padding-left: 14px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.attribution{
+    margin-top: 30px;
+}
+
+@media(max-width: 768px){
+    .main{
+        width: 50%;
+        padding: 15px;
+    }
+
+    .learn, .lang{
+        font-size: 1.2rem;
+    }
+
+    .time, .content{
+        font-size: 0.8rem;
+    } 
+    .content{
+        line-height: 22px;
+    }
+
+    .author p{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 480px){
+    .main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .learn, .lang{
+        font-size: 1rem;
+    }
+
+    .time, .content{
+        font-size: 0.7rem;
+    }
+    .author p{
+        font-size: 0.7rem;
+    }
+    .content{
+        line-height: 18px;
+    }
+
+}
